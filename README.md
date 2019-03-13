@@ -1,3 +1,3 @@
 # Intégration Web d'un blog fictif
 
-L'intégration web du présent blog fictif a été réalisée dans un but pédagogique pour expérimenter les différents types de positionnement CSS. Seules technos HTML/CSS ont été utilisées.
+L'intégration web du présent blog fictif a été réalisée dans un but pédagogique pour expérimenter les différents types de positionnement CSS. Seules les technos HTML/CSS ont été utilisées.
