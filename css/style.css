@@ -1,0 +1,249 @@
+/* DEFAUT */
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    font-weight: 500;
+}
+
+.text-barre {
+    text-decoration: line-through;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* HEADER */
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 30px;
+    z-index: 99;
+    -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+}
+
+.topbar nav {
+    float: left;
+}
+
+.topbar nav a {
+    color: grey;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 53px;
+}
+
+.topbar nav a:hover,
+.topbar nav a.active {
+    color: black;
+}
+
+.social {
+    float: right;
+}
+
+.social a {
+    color: grey;
+    padding: 0 12px;
+}
+
+.social a:hover {
+    color: black;
+}
+
+.banniere {
+    position: relative;
+    margin-top: 75px;
+    height: 427px;
+    background: no-repeat center bottom / cover url('../img/banner.png');
+}
+
+.banniere p {
+    position: absolute;
+    top: calc(50% - 32px);
+    left: calc(50% - 243px);
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 0 2px black;
+}
+
+#subtitle {
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 338px);
+    font-size: 12px;
+}
+
+/* CONTENU  */
+.content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+/* CONTENU PRINCIPAL */
+.main {
+    background-color: #FFF;
+    width: calc(100% - 375px);
+    -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 2;
+}
+
+.main__container {
+    margin: auto;
+    max-width: 940px;
+    padding: 0 20px;
+}
+
+.article {
+    position: relative;
+    overflow: hidden;
+    padding-left: 225px;
+    min-height: 203px;
+    margin: 50px 0;
+}
+
+.article a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.article a:hover {
+    text-decoration: underline;
+}
+
+.article-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    margin-right: 25px;
+}
+
+.article-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.article-date {
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 5px;
+}
+
+.article-title {
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-family: "Cardo", serif;
+    margin: 0 0 15px 0;
+}
+
+.form {
+    background: rgba(0, 0, 0, 0.05);
+    border: 2px solid rgba(0, 0, 0, 0.06);
+    padding: 20px 40px;
+}
+
+small {
+    font-style: italic;
+    display: block;
+    text-align: center;
+}
+
+.article-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.article-content img {
+    width: 250px;
+}
+
+.article-content-detail {
+    text-align: justify;
+}
+
+/* ASIDE */
+.sidebar {
+    width: 375px;
+    padding: 20px 40px 80px;
+    font-size: 17px;
+    position: relative;
+    z-index: 1;
+    background-color: #FBFBFB;
+}
+
+.sidebar-title {
+    font-size: 30px;
+    color: #000;
+    margin: 15px 0;
+}
+
+.sidebar-title:first-child {
+    margin-top: 0;
+}
+
+.sidebar a {
+    color: #9F9F9F;
+    text-decoration: none;
+}
+
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar li {
+    padding: 6px 0;
+}
+
+.sidebar li:first-child {
+    padding-top: 0;
+}
+
+.sidebar li:last-child {
+    padding-bottom: 0;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.sidebar hr {
+    border: none;
+    background: #c4c4c4;
+    height: 1px;
+    margin: 30px 0;
+}
+
+#copyright {
+    position: absolute;
+    bottom: 10px;
+    right: calc(50% - 125px);
+}
